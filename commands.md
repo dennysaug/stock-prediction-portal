@@ -10,6 +10,10 @@ backend:
 
 pip install -r requirements.txt
 
+if you install new package, then:
+
+pip freeze > requirements.txt
+
 
 ### install react
 frontend:
