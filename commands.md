@@ -11,6 +11,23 @@ django-admin startproject stock_prediction_main .
 
 pip install python-decouple==3.8
 
+python manage.py migrate
+
+python manage.py createsuperuser
+
+pip install djangorestframework==3.15.2
+
+python manage.py startapp accounts
+
+python manage.py startapp api
+
+Create:
+* Model
+* Serialization
+* Views
+* URL
+* Test
+
 ### install django
 backend: 
 
