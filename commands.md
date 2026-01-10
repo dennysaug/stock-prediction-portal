@@ -5,6 +5,8 @@ backend:
 
 python3 -m venv env
 
+source env/bin/active
+
 pip install django==5.0.6
 
 django-admin startproject stock_prediction_main .
@@ -27,6 +29,8 @@ Create:
 * Views
 * URL
 * Test
+
+pip install django-cors-headers==4.4.0
 
 ### install django
 backend: 
