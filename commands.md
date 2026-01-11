@@ -23,6 +23,8 @@ python manage.py startapp accounts
 
 python manage.py startapp api
 
+pip install djangorestframework-simplejwt==5.3.1
+
 Create:
 * Model
 * Serialization
