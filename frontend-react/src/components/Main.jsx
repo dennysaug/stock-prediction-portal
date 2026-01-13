@@ -12,7 +12,7 @@ function Main() {
                     <p className="text-light">A powerful stock prediction portal delivering data-driven insights and market trends.
 Analyze real-time signals, forecasts, and performance metrics in one place.
 Make smarter investment decisions with confidence and clarity.</p>
-                    <Button text="Login" class="btn-outline-info"/>
+                    <Button text="Explore Now" class="btn-outline-info" url="/dashboard"/>
                 </div>
             </div>
         </>

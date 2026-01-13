@@ -21,7 +21,11 @@ function Header() {
                 <Link to="/" className="navbar-brand text-light">Stock Prediction Portal</Link>
                 <div>
                     {isLoggedIn ? (
+                        <>
+                        <Button text="Dashboard" class="btn btn-info mx-4" url="/dashboard"/>
                         <button className="btn btn-danger" onClick={handleLogout}>Logout</button>
+                        </>
+
                     ) : (
                     <>
                     <Button text="Login" class="btn-outline-info" url="/login"/>
